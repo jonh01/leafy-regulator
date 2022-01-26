@@ -552,11 +552,28 @@ pre code {
   margin-left: auto;
 }
 
+/* video edit */
+
 @media (max-width: 576px) {
   .col-8t {
-    max-height: 250px;
+    max-height: 70%;
   }
 }
+@media (min-width: 959px) {
+  .col-8t {
+    max-width: 760px;
+  }
+}
+
+.col-8t{
+  height: 90%;
+}
+
+.div-vid{
+  height: 620px;
+}
+
+/* end video edit */
 
 @media (min-width: 576px) {
   .container, .container-sm {
